@@ -1,0 +1,32 @@
+=== SYSTEM ANALYSIS REPORT ===
+Date: Mon Jan 12 09:12:59 AM UTC 2026
+
+1. WEB DIRECTORY STRUCTURE:
+
+2. RUNNING SERVICES:
+  UNIT                        LOAD   ACTIVE SUB     DESCRIPTION
+  accounts-daemon.service     loaded active running Accounts Service
+  cron.service                loaded active running Regular background program processing daemon
+  dbus.service                loaded active running D-Bus System Message Bus
+  emre.service                loaded active running EMRE Core Service
+  emre2.service               loaded active running EMRE-2 Regime-Aware Bot
+  getty@tty1.service          loaded active running Getty on tty1
+  irqbalance.service          loaded active running irqbalance daemon
+  ModemManager.service        loaded active running Modem Manager
+  multipathd.service          loaded active running Device-Mapper Multipath Device Controller
+  networkd-dispatcher.service loaded active running Dispatcher daemon for systemd-networkd
+  open-vm-tools.service       loaded active running Service for virtual machines hosted on VMware
+  packagekit.service          loaded active running PackageKit Daemon
+  polkit.service              loaded active running Authorization Manager
+  rsyslog.service             loaded active running System Logging Service
+  snapd.service               loaded active running Snap Daemon
+  ssh.service                 loaded active running OpenBSD Secure Shell server
+  systemd-journald.service    loaded active running Journal Service
+  systemd-logind.service      loaded active running User Login Management
+  systemd-networkd.service    loaded active running Network Configuration
+
+3. NETWORK CONNECTIONS:
+
+4. DISK USAGE:
+4.0K	/home/extend.sh
+4.0K	/home/autovm.sh
