@@ -1,0 +1,42 @@
+{
+  "position": {
+    "long": {
+      "is_open": false,
+      "side": "NA",
+      "entry": 0.0,
+      "stop": 0.0,
+      "opened_ts": 0,
+      "risk_set_id": "",
+      "last_risk_update_ts": 0,
+      "tp_hits": {
+        "TP1": false,
+        "TP2": false,
+        "TP3": false,
+        "TP4": false
+      },
+      "stop_touched": false,
+      "stop_touch_ts": 0,
+      "stop_touch_price": 0.0
+    },
+    "short": {
+      "is_open": false,
+      "side": "NA",
+      "entry": 0.0,
+      "stop": 0.0,
+      "opened_ts": 0,
+      "risk_set_id": "",
+      "last_risk_update_ts": 0,
+      "tp_hits": {
+        "TP1": false,
+        "TP2": false,
+        "TP3": false,
+        "TP4": false
+      },
+      "stop_touched": false,
+      "stop_touch_ts": 0,
+      "stop_touch_price": 0.0
+    }
+  },
+  "active_trades": [],
+  "last_saved": 1768239867.881593
+}

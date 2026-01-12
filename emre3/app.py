@@ -1,9 +1,15 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+import sys
+import os
 
-from core.core import run
+# Python yolunu ayarla
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-print("=== EMRE3 TEST (BB Sendromu Fix) başlatılıyor ===")
-print("=== Daralan piyasa filtresi AKTİF ===")
-print("=== Bollinger band farkındalığı AKTİF ===")
-run()
+try:
+    from core.core import run
+    print("✅ Import başarılı")
+    run()
+except Exception as e:
+    print(f"❌ Hata: {e}")
+    import traceback
+    traceback.print_exc()
